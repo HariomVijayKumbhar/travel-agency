@@ -88,6 +88,7 @@ nav .container {
     color: #ff6b35;
 }
 
+
 /* Hero Section */
 .hero {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -382,5 +383,8 @@ footer p {
     border-color: #27ae60;
     box-shadow: 0 0 6px rgba(39, 174, 96, 0.5);
 }
-
-
+.modal-body input[type="date"].form-control:focus {
+    border-color: #27ae60;
+    box-shadow: 0 0 8px rgba(39, 174, 96, 0.7);
+    outline: none;
+}
